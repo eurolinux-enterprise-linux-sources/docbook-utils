@@ -1,6 +1,6 @@
 Name: docbook-utils
 Version: 0.6.14
-Release: 36%{?dist}
+Release: 35%{?dist}
 Group: Applications/Text
 
 Summary: Shell scripts for managing DocBook documents
@@ -136,9 +136,6 @@ rm -rf $RPM_BUILD_ROOT/tmp
 %{_mandir}/*/docbook2ps.*
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.6.14-36
-- Mass rebuild 2013-12-27
-
 * Wed Feb 13 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.6.14-35
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
